@@ -1,4 +1,4 @@
-# Python_micro-projects
+# Python micro-projects
 Este repositorio tiene almacenado lo que yo llamo **Micro proyectos**.
 
 Quizá no sean los proyectos mas interesantes ni los que demuestren al 100% mis capacidades como programador, pero es código que de alguna u otra forma, me recuerda que puedo incluso llegar mas lejos.
