@@ -5,7 +5,7 @@ Quizá no sean los proyectos mas interesantes ni los que demuestren al 100% mis 
 
 Los Proyectos en este repositorio son:
 
-+ **Black jack with Python** (Un juego de blak jack hecho en python **programado en ingles**).
++ **Black jack with Python** (Un juego de blak jack hecho en python).
 + **Creador de respaldos** (Un código que nos permite hacer respaldos de carpetas de forma automática).
 + **Multiplicar sin operador** (Un código que nos permite hacer multiplicaciones sin el operador `*`).
 + **Pi montecarlo** (Un código que nos permite calcular el valor de pi con números aleatorios).
