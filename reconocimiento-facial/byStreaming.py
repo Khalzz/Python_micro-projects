@@ -7,12 +7,8 @@ webcam = cv2.VideoCapture(0) #asignamos la webcam (de opencv) a una variable
 
 while True: 
     (_, im) = webcam.read() 
-    gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
-    faces = face_cascade.detectMultiScale(gray,
-    scaleFactor= 1.1,
-    minNeighbors=5,
-    minSize=(30,30),
-    maxSize=(400,400))
+    gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY) #transforma nuestra imagen en una escala de grises para facilitar el reconocimiento
+    faces = face_cascade.detectMultiScale(gray, 1.3, 5) #cuando hacemos straming solo tiene los datos (image, scale factor y min neighbor)
 
     for (x,y,w,h) in faces:
         cv2.rectangle(im,(x,y), (x+w, y+h), (255,0,0), 2) #la "forma que detecta nuestro rostro" sera un rectangulo
