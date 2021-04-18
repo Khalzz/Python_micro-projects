@@ -1,6 +1,6 @@
 from cv2 import cv2 #importamos cv2 (recordar que en visual studio code debemos usar "from ... import ...")
 
-trained_file = 'haarcascade_frontalface_default.xml' #cargamos el archivo pre entrenado
+trained_file = 'haarcascades/haarcascade_frontalface_default.xml' #cargamos el archivo pre entrenado
 
 face_cascade = cv2.CascadeClassifier(trained_file) #activa el metodo de deteccion por cascada de opencv
 webcam = cv2.VideoCapture(0) #asignamos la webcam (de opencv) a una variable
