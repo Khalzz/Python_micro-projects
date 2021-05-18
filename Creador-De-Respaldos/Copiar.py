@@ -2,8 +2,8 @@ import shutil #nos permite interactuar con carpetas de forma avanzada
 import os
 import time
 
-ruta ='/home/khals/Desktop/ProjectAlone'
-rutaCopia = '/home/khals/Desktop/DevShit/Respaldo'
+ruta ='/aqui/va/la/posicion/de/la/carpeta/a/copiar'
+rutaCopia = '/aqui/va/la/posicion/donde/se/creara/la/copia'
 
 def crearCarpeta():
     time.sleep(0.3)
